@@ -37,7 +37,7 @@
             <DisplayName Value="Proxy" />
             <ConnectableUniqueId Value="Automator-8D7692DE8E1CD06\ConnectableTypeProxy-8D7692E7EBD5DC3" />
             <PartID Value="5" />
-            <Left Value="1440" />
+            <Left Value="1560" />
             <Top Value="420" />
             <Collapsed Value="False" />
             <WillExecute Value="False" />
@@ -285,8 +285,8 @@
               <Point value="1360, 516" />
               <Point value="1364, 516" />
               <Point value="1364, 495" />
-              <Point value="1435, 495" />
-              <Point value="1445, 495" />
+              <Point value="1555, 495" />
+              <Point value="1565, 495" />
             </LinkPoints>
           </Link>
           <Link PartID="40" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
