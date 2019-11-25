@@ -3,11 +3,11 @@
     <Type Value="OpenSpan.Automation.Automator" />
     <Assembly Value="OpenSpan.Automation" />
     <AssemblyReferences>
-      <Assembly Value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+      <Assembly Value="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
       <Assembly Value="OpenSpan, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
       <Assembly Value="OpenSpan.Automation, Version=19.1.0.0, Culture=neutral, PublicKeyToken=f5db91edc02d8c5e" />
-      <Assembly Value="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
     </AssemblyReferences>
     <DynamicAssemblyReferences />
     <FileReferences />
@@ -21,8 +21,8 @@
         <Objects>
           <ConnectionBlock>
             <ConnectableUniqueId Value="Automator-8D76A8754B5B4CB\EntryPoint-8D76A8757E459B8" />
-            <Left Value="180" />
-            <Top Value="340" />
+            <Left Value="183" />
+            <Top Value="342" />
             <PartID Value="1" />
           </ConnectionBlock>
           <ConnectionBlock>
@@ -113,8 +113,8 @@
           </ConnectionBlock>
           <ConnectionBlock type="OpenSpan.Automation.Design.ConnectionBlocks.MultiExitPointBlock">
             <ConnectableUniqueId Value="Automator-8D76A8754B5B4CB\ExitPoint-8D76A88B69F7CE4" />
-            <Left Value="1460" />
-            <Top Value="560" />
+            <Left Value="1463" />
+            <Top Value="562" />
             <PartID Value="16" />
             <Title Value="Flag" />
             <EventName Value="" />
@@ -123,7 +123,7 @@
             <DisplayName Value="Properties" />
             <ConnectableUniqueId Value="Automator-8D76A8754B5B4CB\ConnectableProperties-8D76A88C41AE8D4" />
             <PartID Value="18" />
-            <Left Value="1360" />
+            <Left Value="1320" />
             <Top Value="420" />
             <Collapsed Value="False" />
             <WillExecute Value="True" />
@@ -150,9 +150,11 @@
             <LinkPoints>
               <Point value="766, 456" />
               <Point value="776, 456" />
+              <Point value="772, 456" />
+              <Point value="772, 456" />
               <Point value="780, 456" />
-              <Point value="780, 476" />
-              <Point value="556, 476" />
+              <Point value="780, 484" />
+              <Point value="556, 484" />
               <Point value="556, 611" />
               <Point value="555, 611" />
               <Point value="565, 611" />
@@ -180,8 +182,10 @@
             <LinkPoints>
               <Point value="766, 426" />
               <Point value="776, 426" />
-              <Point value="845, 426" />
-              <Point value="845, 391" />
+              <Point value="772, 426" />
+              <Point value="772, 426" />
+              <Point value="780, 426" />
+              <Point value="780, 391" />
               <Point value="915, 391" />
               <Point value="925, 391" />
             </LinkPoints>
@@ -206,6 +210,8 @@
             <LinkPoints>
               <Point value="766, 886" />
               <Point value="776, 886" />
+              <Point value="772, 886" />
+              <Point value="772, 886" />
               <Point value="780, 886" />
               <Point value="780, 831" />
               <Point value="935, 831" />
@@ -218,8 +224,10 @@
             <LinkPoints>
               <Point value="766, 916" />
               <Point value="776, 916" />
-              <Point value="855, 916" />
-              <Point value="855, 951" />
+              <Point value="772, 916" />
+              <Point value="772, 916" />
+              <Point value="780, 916" />
+              <Point value="780, 951" />
               <Point value="935, 951" />
               <Point value="945, 951" />
             </LinkPoints>
@@ -230,26 +238,24 @@
             <LinkPoints>
               <Point value="1090, 391" />
               <Point value="1100, 391" />
-              <Point value="1100, 391" />
-              <Point value="1100, 391" />
-              <Point value="1324, 391" />
-              <Point value="1324, 578" />
-              <Point value="1452, 578" />
-              <Point value="1462, 578" />
+              <Point value="1277, 391" />
+              <Point value="1277, 580" />
+              <Point value="1455, 580" />
+              <Point value="1465, 580" />
             </LinkPoints>
           </Link>
           <Link PartID="19" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
             <From PartID="18" PortName="Value" PortType="Property" ConnectableId="Automator-8D76A8754B5B4CB\ConnectableProperties-8D76A88C41AE8D4" MemberComponentId="Automator-8D76A8754B5B4CB\ConnectableVariable-8D76A8793E66BBF" />
             <To PartID="16" PortName="param1" PortType="Property" ConnectableId="Automator-8D76A8754B5B4CB\ExitPoint-8D76A88B69F7CE4" MemberComponentId="EMPTY" />
             <LinkPoints>
-              <Point value="1530, 503" />
-              <Point value="1540, 503" />
-              <Point value="1540, 503" />
-              <Point value="1540, 524" />
+              <Point value="1490, 503" />
+              <Point value="1500, 503" />
+              <Point value="1500, 503" />
+              <Point value="1500, 524" />
               <Point value="1452, 524" />
-              <Point value="1452, 612" />
-              <Point value="1452, 612" />
-              <Point value="1462, 612" />
+              <Point value="1452, 614" />
+              <Point value="1455, 614" />
+              <Point value="1465, 614" />
             </LinkPoints>
           </Link>
           <Link PartID="20" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -258,12 +264,10 @@
             <LinkPoints>
               <Point value="1090, 631" />
               <Point value="1100, 631" />
-              <Point value="1100, 631" />
-              <Point value="1100, 631" />
-              <Point value="1324, 631" />
-              <Point value="1324, 578" />
-              <Point value="1452, 578" />
-              <Point value="1462, 578" />
+              <Point value="1277, 631" />
+              <Point value="1277, 580" />
+              <Point value="1455, 580" />
+              <Point value="1465, 580" />
             </LinkPoints>
           </Link>
           <Link PartID="21" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -272,12 +276,10 @@
             <LinkPoints>
               <Point value="1110, 831" />
               <Point value="1120, 831" />
-              <Point value="1124, 831" />
-              <Point value="1124, 831" />
-              <Point value="1324, 831" />
-              <Point value="1324, 578" />
-              <Point value="1452, 578" />
-              <Point value="1462, 578" />
+              <Point value="1287, 831" />
+              <Point value="1287, 580" />
+              <Point value="1455, 580" />
+              <Point value="1465, 580" />
             </LinkPoints>
           </Link>
           <Link PartID="22" Sensitive="False" Asynchronous="False" LogBeforeExecution="" LogAfterExecution="">
@@ -286,12 +288,10 @@
             <LinkPoints>
               <Point value="1110, 951" />
               <Point value="1120, 951" />
-              <Point value="1124, 951" />
-              <Point value="1124, 951" />
-              <Point value="1324, 951" />
-              <Point value="1324, 578" />
-              <Point value="1452, 578" />
-              <Point value="1462, 578" />
+              <Point value="1287, 951" />
+              <Point value="1287, 580" />
+              <Point value="1455, 580" />
+              <Point value="1465, 580" />
             </LinkPoints>
           </Link>
         </Links>
@@ -299,7 +299,7 @@
         <SubGraphs />
       </AutomationDocument>
       <DocumentPosition Value="Binary">
-        <Binary>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAACAEEQL</Binary>
+        <Binary>AAEAAAD/////AQAAAAAAAAAMAgAAAFFTeXN0ZW0uRHJhd2luZywgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EFAQAAABVTeXN0ZW0uRHJhd2luZy5Qb2ludEYCAAAAAXgBeQAACwsCAAAAAAAAAAAAuUML</Binary>
       </DocumentPosition>
       <Content Name="DynamicMembers">
         <Items>
@@ -311,8 +311,8 @@
     </OpenSpan.Automation.Automator>
     <OpenSpan.Automation.EntryPoint Name="entryPoint1" Id="EntryPoint-8D76A8757E459B8">
       <AliasName Value="Execute" />
-      <ComponentName Value="&lt;No Instance&gt;" />
-      <DisplayName Value="" />
+      <ComponentName Value="Execute" />
+      <DisplayName Value="Execute" />
       <ExceptionsHandled Value="False" />
       <InstanceTypeName Value="OpenSpan.Automation.EntryPoint" />
       <InstanceUniqueId Value="Automator-8D76A8754B5B4CB\EntryPoint-8D76A8757E459B8" />
@@ -382,6 +382,7 @@
       </Content>
     </OpenSpan.Automation.ConnectableProperties>
     <OpenSpan.Automation.ConnectableVariable Name="flag" Id="ConnectableVariable-8D76A8793E66BBF">
+      <ComponentName Value="" />
       <ExceptionsHandled Value="False" />
       <InstanceTypeName Value="" />
       <InstanceUniqueId Value="EMPTY" />
